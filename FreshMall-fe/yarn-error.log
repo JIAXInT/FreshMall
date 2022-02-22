@@ -1,0 +1,90 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe F:\Software\yarn\bin\yarn.js add element-ui -S
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;G:\Adobe Premiere Pro CC 2019\Plug-Ins;G:\Program Files\Java\jdk1.8.0_131\bin;G:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\;G:\Program Files\Microsoft SQL Server\130\Tools\Binn\;G:\Program Files (x86)\Microsoft SQL Server\130\DTS\Binn\;G:\Program Files\Microsoft SQL Server\130\DTS\Binn\;G:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files\Java\jre1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\bin;G:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\PHP\php-7.4.9-Win32-vc15-x64;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;F:\Software\yarn\bin\;G:\Scripts\;G:\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\PHP\php-7.4.9-Win32-vc15-x64;C:\Users\hp\AppData\Local\atom\bin;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;F:\Microsoft VS Code\bin;C:\Users\hp\AppData\Roaming\npm;C:\Users\hp\AppData\Local\Yarn\bin;F:\Software\WebStorm 2021.1.1\bin;;";C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Windows\SysWOW64"
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\hp\Desktop\论文\mimall-static\node_modules\node-sass\vendor\win32-x64-83\binding.node'
+
+npm manifest: 
+  {
+    "name": "mall",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "serve": "vue-cli-service serve --mode=development",
+      "test": "vue-cli-service serve --mode=test",
+      "prev": "vue-cli-service serve --mode=prev",
+      "build": "vue-cli-service build --mode=production",
+      "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+      "@babel/plugin-syntax-dynamic-import": "^7.7.4",
+      "axios": "^0.19.0",
+      "core-js": "^3.3.2",
+      "qrcode": "^1.4.4",
+      "vue": "^2.6.10",
+      "vue-infinite-scroll": "^2.0.2",
+      "vue-router": "^3.1.3",
+      "vuex": "^3.1.1"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "^4.0.0",
+      "@vue/cli-plugin-eslint": "^4.0.0",
+      "@vue/cli-service": "^4.0.0",
+      "axios": "^0.19.0",
+      "babel-eslint": "^10.0.3",
+      "babel-plugin-component": "^1.1.1",
+      "element-ui": "^2.13.0",
+      "eslint": "^5.16.0",
+      "eslint-plugin-vue": "^5.0.0",
+      "jsonp": "^0.2.1",
+      "mockjs": "^1.1.0",
+      "node-sass": "^4.13.0",
+      "sass-loader": "^8.0.0",
+      "vue-awesome-swiper": "^3.1.3",
+      "vue-axios": "^2.1.5",
+      "vue-cookie": "^1.1.4",
+      "vue-lazyload": "^1.3.3",
+      "vue-template-compiler": "^2.6.10"
+    },
+    "eslintConfig": {
+      "root": true,
+      "env": {
+        "node": true
+      },
+      "extends": [
+        "plugin:vue/essential",
+        "eslint:recommended"
+      ],
+      "rules": {},
+      "parserOptions": {
+        "parser": "babel-eslint"
+      }
+    },
+    "postcss": {
+      "plugins": {
+        "autoprefixer": {}
+      }
+    },
+    "browserslist": [
+      "> 1%",
+      "last 2 versions"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
