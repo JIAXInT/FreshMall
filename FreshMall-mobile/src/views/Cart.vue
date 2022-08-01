@@ -9,7 +9,7 @@
       />
 
       <!-- 购物车为空 -->
-      <div class="empty" v-if="cartItem[0]">
+      <div class="empty" v-if="!cartItem[0]">
         <img src="./../assets/img/购物车空空如也.png" alt="">
         <p>购物车空空如也~</p>
         <van-button type="primary" round  class="empty-button" size="large" to="/home/index">去逛逛</van-button>

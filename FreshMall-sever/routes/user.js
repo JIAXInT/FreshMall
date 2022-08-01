@@ -25,6 +25,8 @@ router.post('/register', async function(ctx, next) {
         }
     }
 })
+
+//登录接口
 router.post('/login', async function(ctx, next) {
         const { username, password } = ctx.request.body
         console.log("前端传过来的参数：", username, password)

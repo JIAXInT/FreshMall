@@ -43,7 +43,7 @@ export default {
       Toast('编辑地址:' + index)
     },
     onClickLeft () {
-      this.$router.go(-1)
+      this.$router.push('/order')
     },
     onClickRight() {
       this.$router.push('/home/my')

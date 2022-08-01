@@ -12,17 +12,18 @@ const cors = require('koa2-cors')
 const user = require('./routes/user');
 // error handler
 onerror(app);
-// 先写个密钥用于加密session配置，（延伸知识点：什么是session,什么是cookies，它们之间的关系）
-app.keys = ['skds~^)7293SA'] //随便写的就行
+// 用于加密session配置的秘钥
+app.keys = ['skds~^)7293SA']
 app.use(session({
-        // 配置cookies
-        cookie: {
-            path: '/',
-            httpOnly: true, //只能通过后端修改cookie，不允许 前端JS修改
-            maxAge: 24 * 60 * 60 * 1000
-        }
-    }))
-    // 这样session就搞定了， 然后就是跨域,
+    // 配置cookies
+    cookie: {
+        path: '/',
+        httpOnly: true, //只能通过后端修改cookie，不允许 前端JS修改
+        maxAge: 24 * 60 * 60 * 1000
+    }
+}))
+
+// 跨域设置,
 app.use(cors({
     origin: '*', //前端的地址
     credentials: true, //允许跨域带cookie

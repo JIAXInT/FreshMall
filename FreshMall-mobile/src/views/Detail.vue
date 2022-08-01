@@ -20,17 +20,10 @@
 
       <!-- 商品详情  -->
       <van-card
-        num="2"
+        num="1"
         :price="detailList.price"
         :desc="detailList.nickName"
         :title="detailList.name"
-      />
-
-      <!-- 优惠券单元格 -->
-      <van-coupon-cell
-        :coupons="coupons"
-        :chosen-coupon="chosenCoupon"
-        @click="showList = true"
       />
 
       <!-- 底部按钮 -->

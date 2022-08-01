@@ -20,10 +20,10 @@
 
     <!-- 轮播图 -->
     <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
-      <van-swipe-item><img src="http://www.justic.store/imgs/ads/ads-1.png" alt=""></van-swipe-item>
-      <van-swipe-item><img src="http://www.justic.store/imgs/ads/ads-2.jpg" alt=""></van-swipe-item>
-      <van-swipe-item><img src="http://www.justic.store/imgs/ads/ads-3.png" alt=""></van-swipe-item>
-      <van-swipe-item><img src="http://www.justic.store/imgs/ads/ads-4.jpg" alt=""></van-swipe-item>
+      <van-swipe-item><img src="http://www.justic.store:8083/imgs/ads/ads-1.png" alt=""></van-swipe-item>
+      <van-swipe-item><img src="http://www.justic.store:8083/imgs/ads/ads-2.jpg" alt=""></van-swipe-item>
+      <van-swipe-item><img src="http://www.justic.store:8083/imgs/ads/ads-3.png" alt=""></van-swipe-item>
+      <van-swipe-item><img src="http://www.justic.store:8083/imgs/ads/ads-4.jpg" alt=""></van-swipe-item>
     </van-swipe>
 
     <!-- 分类展示 -->

@@ -1,8 +1,10 @@
-# 鲜果优品pc端 [在线预览](http://www.justic.store:8083/#/index)
+<meta name="referrer" content="no-referrer" />
+
+# 鲜果优品 pc 端 [在线预览](http://www.justic.store:8083/#/index)
 
 # 一、项目介绍
 
-基于vue.js的生鲜线上零售平台。
+基于 vue.js 的生鲜线上零售平台。
 
 ## 二、技术栈
 
@@ -35,11 +37,11 @@ npm run serve
 
 ## 四、项目展示
 
-### 4.1网站首页
+### 4.1 网站首页
 
 ![img](https://cdn.nlark.com/yuque/0/2022/png/21707377/1651065398022-456450fe-482e-494c-a6a4-b586529c979b.png)![img](https://cdn.nlark.com/yuque/0/2022/png/21707377/1651065445799-397c4a90-6dd3-4e4e-9af4-8507128c4691.png)
 
-## 4.2登录页面
+## 4.2 登录页面
 
 ![img](https://cdn.nlark.com/yuque/0/2022/png/21707377/1651065491732-3d7c2226-68c5-45b4-b124-846c10bb9c33.png)
 

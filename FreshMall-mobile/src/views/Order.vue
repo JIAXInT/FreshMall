@@ -81,7 +81,7 @@ export default {
       Toast('编辑')
     },
     onClickLeft() {
-      this.$router.go(-1)
+      this.$router.push('/home/cart')
     }
   }
 }
