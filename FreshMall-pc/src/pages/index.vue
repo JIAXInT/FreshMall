@@ -104,8 +104,8 @@ export default {
 @import "./../assets/scss/config.scss";
 @import "./../assets/scss/mixin.scss";
 .index {
-  background: url("http://www.justic.store:8083/imgs/index-bg.png") no-repeat
-    50% 0;
+  background: url("https://s3.bmp.ovh/imgs/2022/09/13/6c2ead0dbb530515.png")
+    no-repeat 50% 0;
   .swiper-box {
     .swiper-cube-shadow {
       width: 0;
